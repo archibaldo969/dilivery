@@ -1,0 +1,69 @@
+.consultation {
+    padding-bottom: 76px;
+    &__wrapper {
+        position: relative;
+        border: 1px solid #898989;
+        margin-top: 71px;
+    }
+    &__img {
+        position: absolute;
+        left: 50%;
+        top: -35px;
+        z-index: 3;
+        transform: translateX(-50%);
+    }
+    &__circle {
+        position: absolute;
+        left: 50%;
+        top: -51px;
+        display: flex;
+        border-right: 12px solid white;
+        border-left: 12px solid white;
+        transform: translateX(-50%);
+    }
+    &__triggers {
+        grid-column: 2 / 3;
+        display: flex;
+        justify-content: center;
+        margin-top: 82px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        border-right: 12px solid white;
+        border-left: 12px solid white;
+    }
+}
+form {
+    position: relative;
+    display: grid;
+    margin-top: 68px;
+    grid-template-columns: repeat(3, 268px);
+    justify-content: center;
+    column-gap: 12px;
+    input {
+        width: 210px;
+        border-radius: 25px;
+        height: 43px;
+        border: solid 1px rgba(0,0,0,0.21);
+        font-size: 13px;
+        font-weight: 300;
+        color: rgba(16,16,16,0.7);
+        padding: 0px 28px;
+        margin-bottom: 58px;
+    }
+}
+#text {
+    grid-column: 1 / 4;
+    width: 770px;
+    height: 70px;
+    border-radius: 8px;
+    margin-bottom: 87px;
+    font-weight: 400;
+    &::placeholder {
+        transform: translateY(-10px);
+    }
+}
+#name_qst, #number_qst, #email_qst {
+    margin-bottom: 8px;
+    font-weight: 400;
+}

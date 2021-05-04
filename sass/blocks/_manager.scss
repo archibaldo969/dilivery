@@ -1,0 +1,21 @@
+.manager {
+    background: url(../img/background/bg_3.jpg) center center/cover no-repeat;
+    padding-bottom: 64px;
+    &__icons {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        img {
+            margin-top: 82px;
+        }
+        &:before {
+            margin-top: 58px;
+            content: '';
+            position: absolute;
+            width: 102px;
+            height: 102px;
+            border: solid 1px #ffffff;
+            border-radius: 50%;
+        }
+    }
+}

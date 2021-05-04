@@ -1,0 +1,44 @@
+.title_fz26 {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #2e2e2e;
+    text-transform: uppercase;
+}
+.title_fz21 {
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    color: #2e2e2e;
+    margin-top: 17px;
+    &_work {
+        padding: 0 130px 0 130px;
+    }
+}
+.title_fz28 {
+    font-size: 28px;
+    text-align: center;
+    color: #3a3a3a;
+}
+.title__white {
+    margin-top: 50px;
+    color: #ffffff; 
+    &_mn {
+        margin-top: 45px;
+    }
+}
+.subtitle{
+    &__orange {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ec644b;
+    }
+    &__text {
+        margin-top: 20px;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 1.42;
+        text-align: center;
+        color: #ffffff;
+    }
+}

@@ -1,0 +1,31 @@
+.questions {
+    background: url(../img/background/bg_4.jpg) center center/cover no-repeat;
+    padding: 62px 0 79px 0;
+    &__item{
+        max-width: 900px;
+        margin: 0 auto;
+        &_title {
+            padding: 20px 0 19px 0;
+            font-weight: bold;
+            text-align: center;
+            color: #ffffff;
+            background-color: #25333c;
+            font-size: 19px;
+            span {
+                font-size: 14px;
+                text-align: center;
+                font-weight: 100;
+            }
+        }
+    }
+}
+.contacts__form_qst {
+    background-color:#f7f7f78f;
+    padding-top: 18px;
+    margin-top: 0;
+}
+#btn {
+    margin-top: 159px;
+    border-right: none;
+    border-left: none;
+}

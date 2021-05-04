@@ -1,0 +1,50 @@
+.reviews {
+    padding: 51px 0 65px 0;
+    &__carousel {
+        position: relative;
+        width: 601px;
+        margin: 0 auto;
+        margin-top: 31px;
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        top: 20%;
+        transform: translateY(-20%);
+        left: 190px;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 15px;
+            height: 47px;
+        }
+    }
+    .slick-next {
+        right: 190px;
+        left: auto;
+    }
+    &__img {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 114px;
+            height: 114px;
+        }
+    }
+    &__name {
+        margin-top: 19px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+    &__text {
+        margin-top: 7px;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: justify;
+        color: #3a3a3a;
+        &_center {
+            text-align: center;
+            margin-top: 0;
+        }
+    }
+}

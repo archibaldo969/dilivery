@@ -1,0 +1,27 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+}
+* {
+    font-family: 'Roboto'
+}
+
+@import 'blocks/promo' ;
+@import 'blocks/header' ;
+@import 'blocks/button' ;
+@import 'blocks/divider' ;
+@import 'blocks/title' ;
+@import 'blocks/advantages' ;
+@import 'blocks/work' ;
+@import 'blocks/agent' ;
+@import 'blocks/delivery' ;
+@import 'blocks/consutation' ;
+@import 'blocks/manager' ;
+@import 'blocks/scheme' ;
+@import 'blocks/reviews' ;
+@import 'blocks/questions';
+@import 'blocks/footer' ;
+@import 'base/media';

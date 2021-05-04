@@ -1,0 +1,44 @@
+.delivery {
+    padding: 53px 0 58px 0;
+    &__table {
+        margin-top: 34px;
+        display: grid;
+        grid-template-columns: repeat(4, 261px);
+        column-gap: 28px;
+    }
+    &__item {
+        border: 1px solid #ececec;
+        &_title {
+            padding: 24px 0 22px 0;
+            font-weight: bold;
+            text-align: center;
+            color: #ffffff;
+            background-color: #25333c;
+        }
+        &_subtitle {
+            margin-top: 10px;
+            font-size: 14px;
+            text-align: center;
+            color: #2e2e2e;
+            font-weight: 500;
+        }
+        &_price {
+            font-size: 28px;
+            color: #ec644b;
+            text-align: center;
+            margin-top: 7px;
+        }
+        &_text {
+            margin-top: 19px;
+            font-size: 14px;
+            text-align: center;
+            line-height: 1.43;
+            color: #2e2e2e;
+        }
+    }
+    &__img {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}

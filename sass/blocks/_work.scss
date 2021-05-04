@@ -1,0 +1,30 @@
+.work {
+    padding: 51px 0 58px 0;
+    &__descr {
+        margin-top: 37px;
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        column-gap: 30px;
+        grid-template-rows: minmax(370px, auto);
+        grid-auto-rows: minmax(370px, auto);
+    }
+    &__subtitle {
+        margin-top: 28px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: #ec644b;
+    }
+    &__text {
+        margin-top: 7px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        text-align: justify;
+        color: #3a3a3a;
+    }
+    &__center {
+        text-align: center;
+        margin-top: 0;
+    }
+}

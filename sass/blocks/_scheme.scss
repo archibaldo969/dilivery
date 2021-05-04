@@ -1,0 +1,36 @@
+.scheme {
+    padding: 51px 0 46px 0;
+    background-color: #f3f3f3;
+    &__wrapper {
+        display: grid;
+        margin-top: 33px;
+        grid-template-columns: repeat(4, 254px);
+        column-gap: 40px;
+        &_2 {
+            display: grid;
+            margin-top: 33px;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 40px; 
+        }
+    } 
+    &__icons {
+        display: flex;
+        justify-content: center;
+        &_heigh {
+            padding-bottom: 4px;
+        }
+        &_height {
+            padding-bottom: 8px;
+        }
+    }
+    &__descr {
+        text-align: center;
+        margin-top: 12px;
+    }
+    &__text {
+        margin-top: 7px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+    }
+}
